@@ -1,30 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title> Working on AJAX call </title>
+  <title> Sweater Weather </title>
+     <link rel="stylesheet" type="text/css" href='lib/styles.css'>
 </head>
-<body>
 
+<h1> Sweater Weather </h1>
+<div class='search'>
   <input id='location' type='text' placeholder='Enter location'>
-  <button id="btn">Submit Location</button>
+  <button id="searchBtn">Submit Location</button>
+  </div>
+<body>
+<div class=wrapper>
 
-  <div class 'current-weather'>
-
+<div class='current-weather'>
+  <div id= "current-title"></div>
   <div id= "chosen-location"></div>
   <div id="todays-date"></div>
-  <div id="todays-summary"></div>
+  <div id="current-summary"></div>
   <div id="current-temp"></div>
   <div id="todays-high"></div>
   <div id="todays-low"></div>
+  <button id="addFavBtn">Add as Favorite</button>
+  <button id="seeFav">See Favorites</button>
 </div>
 
+<div class='detailed'>
+  <div id="detail-title"></div>
+  <div id="short-summary"></div>
+  <div id="today-summary"></div>
+  <div id="tonight-summary"></div>
+  <div id="feels-like"></div>
+  <div id="current-humidity"></div>
+  <div id="current-visibility"></div>
+  <div id="UV-index"></div>
+</div>
 
+<div class='hourly'>
+  <div id='hourly-title'></div>
+  <div id=this-hour></div>
+  <div id=next-hour></div>
+  <div id=third-hour></div>
+  <div id=fourth-hour></div>
+  <div id=fifth-hour></div>
+  <div id=sixth-hour></div>
+  <div id=seventh-hour></div>
+  <div id=eighth-hour></div>
+</div>
+
+<div class='daily'>
+  <div id='daily-title'></div>
+  <div id='next-day'></div>
+  <div id='third-day'></div>
+  <div id='fourth-day'></div>
+  <div id='fifth-day'></div>
+  <div id='sixth-day'></div>
+</div>
+
+</div>
 
     <script
     src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'>
   </script>
   <script src="main.bundle.js"></script>
   <script src="lib/index.js"></script>
-  <script src="lib/styles.css"></script>
 </body>
 </html>
