@@ -1,9 +1,8 @@
 ## Sweater Weather (Front-End)
 [![Waffle.io - Columns and their card count](https://badge.waffle.io/mnhollandplum/sweater_weather_fe.svg?columns=all)](https://waffle.io/mnhollandplum/sweater_weather_fe)
 
-What this app does
+### View the App
 https://mnhollandplum.github.io/sweater_weather_fe/
-### Pitch
 
 ### Programming Stack
 * Javascript
@@ -20,6 +19,3 @@ https://mnhollandplum.github.io/sweater_weather_fe/
 
 `npm install`
 Follow directions in the terminal.
-
-### View the App
-https://github.com/mnhollandplum/sweater_weather_fe
