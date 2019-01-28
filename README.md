@@ -1,23 +1,14 @@
-#WORK IN PROGRESS
-
 ## Sweater Weather (Front-End)
-buttons (waffle, codeclimate etc)
-
-Functionality video
-### Functionality
+[![Waffle.io - Columns and their card count](https://badge.waffle.io/mnhollandplum/sweater_weather_fe.svg?columns=all)](https://waffle.io/mnhollandplum/sweater_weather_fe)
 
 What this app does
 https://mnhollandplum.github.io/sweater_weather_fe/
 ### Pitch
 
-How I would sell it to users
-
 ### Programming Stack
 * Javascript
-
-### Prerequisites/ Dependencies
- This project assumes you have installed:
-
+* HTML/CSS
+* Accessing Rails Backend API, DarkSky API, Google API
 
 ### Installing
 
@@ -30,5 +21,5 @@ How I would sell it to users
 `npm install`
 Follow directions in the terminal.
 
-### Running the tests
-
+### View the App
+https://github.com/mnhollandplum/sweater_weather_fe
