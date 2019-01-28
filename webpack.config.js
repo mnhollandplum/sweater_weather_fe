@@ -1,6 +1,9 @@
 const path = require('path');
 
 module.exports = {
+  node: {
+  fs: 'empty'
+},
   entry: {
     main: "./lib/index.js",
     test: "mocha!./test/index.js"
