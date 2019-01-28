@@ -1,0 +1,74 @@
+h1 {
+  color: #75FA;
+  font-weight: 300;
+  font-size: 60px;
+  text-align: center;
+}
+
+input {
+  width: 250px;
+  padding: 5px;
+  margin: 8px 0;
+  font-size: 25px;
+}
+
+button {
+  border-radius: 12px;
+  background-color: #404041;
+  color: #FFFFFF;
+  padding: 2px 25px;
+  font-size: 20px;
+}
+
+.search {
+  text-align: center;
+}
+
+
+body {
+  margin: 40px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c c c c c"
+    "d d d d d d d d";
+  grid-gap: 10px;
+  color: #444;
+}
+.current-weather {
+  grid-area: a;
+}
+.detailed {
+  grid-area: b;
+}
+.hourly {
+  grid-area: c;
+}
+.daily {
+  grid-area: d;
+}
+
+#current-temp {
+  font-size: 90px;
+}
+
+#current-title {
+  font-weight: bold;
+}
+
+#detail-title {
+  font-weight: bold;
+}
+
+#hourly-title {
+  font-weight: bold;
+}
+
+#daily-title {
+  font-weight: bold;
+}
